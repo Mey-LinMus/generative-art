@@ -102,7 +102,7 @@ function setup() {
 
   background(0);
 
-  for (let i = 0; i < 4000; i++) {
+  for (let i = 0; i < 2000; i++) {
     c.push(new Cell(random(width), random(height)));
   }
 
@@ -122,8 +122,8 @@ function draw() {
 
   if (mouseIsPressed) {
     push();
-    fill(0);
-    circle(mouseX, mouseY, 50);
+    fill(155, 192, 255);
+    circle(mouseX, mouseY, 80);
     pop();
   }
 
@@ -137,9 +137,9 @@ function draw() {
 }
 
 function drawCells(cells) {
-  fill(240, 252, 17);
+  fill(255, 255, 250);
   noStroke();
   for (let i = 0; i < cells.length; i++) {
-    circle(c[i].pos.x, c[i].pos.y, c[i].size + 1);
+    circle(c[i].pos.x, c[i].pos.y, c[i].size + 0.5);
   }
 }
