@@ -1,5 +1,3 @@
-// Jeff Jones
-
 function rotate2D(v, theta) {
   return createVector(
     v.x * cos(theta) - v.y * sin(theta),
@@ -100,7 +98,7 @@ let rectSize;
 
 function setup() {
   d = pixelDensity();
-  createCanvas(450, 450);
+  createCanvas(400, 400);
 
   background(0);
 

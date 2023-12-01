@@ -4,9 +4,9 @@ var particles_a = [];
 var particles_b = [];
 var particles_c = [];
 var fade = 100;
-var radius = 1.5;
+var radius = 1.2;
 
-let noiseScale = 500;
+let noiseScale = 100;
 
 let noiseStrength = 1;
 
@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-  fill(0, 5);
+  fill(0, 8);
   noStroke();
   rect(0, 0, width, height);
 
@@ -42,7 +42,7 @@ function draw() {
     particles_a[i].update(radius);
     particles_a[i].checkEdges();
 
-    fill(227, 6, 19, fade);
+    fill(185, 131, 255, fade);
     particles_b[i].move();
     particles_b[i].update(radius);
     particles_b[i].checkEdges();
