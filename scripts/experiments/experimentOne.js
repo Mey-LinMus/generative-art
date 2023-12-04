@@ -12,7 +12,12 @@ let noiseStrength = 1;
 
 function setup() {
   // Canvas size
-  createCanvas(400, 400);
+
+  var cnv = createCanvas(400, 400);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+
   noStroke();
   for (let i = 0; i < num; i++) {
     let loc_a = createVector(random(width * 1.2), random(height), 2);
