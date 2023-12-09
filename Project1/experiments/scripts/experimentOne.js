@@ -10,10 +10,8 @@ let noiseScale = 100;
 
 let noiseStrength = 1;
 
-function setupExOne() {
-  // Canvas size
-
-  var cnv = createCanvas(400, 400);
+function setup() {
+  var cnv = createCanvas(500, 500);
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
   cnv.position(x, y);
@@ -36,7 +34,7 @@ function setupExOne() {
   }
 }
 
-function drawExOne() {
+function draw() {
   fill(0, 8);
   noStroke();
   rect(0, 0, width, height);
