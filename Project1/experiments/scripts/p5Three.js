@@ -124,7 +124,7 @@ function draw() {
 
   if (mouseIsPressed) {
     push();
-    fill(155, 192, 255);
+    fill(255, 192, 255);
     circle(mouseX, mouseY, 80);
     pop();
   }
