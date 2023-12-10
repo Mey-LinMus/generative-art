@@ -12,24 +12,24 @@ Dit project is een verzameling van interactieve visualisaties gemaakt met behulp
 
 1. Gemaakt met P5.js-bibliotheek
 
-![Werk 1](../images/image.png)
+![Werk 1](./images/image.png)
 
 1. Gemaakt met P5.js-bibliotheek
 
-![Werk 2](../images/image-1.png)
+![Werk 2](./images/image-1.png)
 
 3. Gemaakt met Pts.js-bibliotheek
 
-![Werk 3](../images/image-2.png)
+![Werk 3](./images/image-2.png)
 
 4. Gemaakt met Pts.js-bibliotheek
 
-![Werk 4](../images/image-3.png)
+![Werk 4](./images/image-3.png)
 
 5. Gemaakt met HTML5 P5.js-bibliotheek
 
-![Werk 5](../images/image-4.png)
+![Werk 5](./images/image-4.png)
 
 1. Gemaakt met HTML5 Canvas
 
-![Werk 6](../images/image-5.png)
+![Werk 6](./images/image-5.png)
