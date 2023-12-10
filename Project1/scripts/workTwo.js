@@ -98,9 +98,7 @@ let rectSize;
 
 function setup() {
   d = pixelDensity();
-  var cnv = createCanvas(500, 500);
-  var x = (windowWidth - width) / 2;
-  cnv.position(x);
+  createCanvas(750, 750);
 
   background(0);
 

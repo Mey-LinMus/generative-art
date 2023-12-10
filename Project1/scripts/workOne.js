@@ -11,10 +11,7 @@ let noiseScale = 100;
 let noiseStrength = 1;
 
 function setup() {
-  var cnv = createCanvas(500, 500);
-  var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 2;
-  cnv.position(x, y);
+  createCanvas(750, 750);
 
   noStroke();
   for (let i = 0; i < num; i++) {
